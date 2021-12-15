@@ -126,6 +126,6 @@ public class VentanaS extends javax.swing.JFrame {
     }
 
     void addServidorIniciado() {
-        txtClientes.setText("Inicializando el servidor... [Ok].");
+        txtClientes.setText("Inicializando el servidor");
     }        
 }
