@@ -24,7 +24,7 @@ public class VentanaC extends javax.swing.JFrame {
         
         String ip = DEFAULT_IP;
         String puerto = DEFAULT_PORT;
-        String nombre = name; //Cambia dependiendo del inicio de sesion bicho
+        String nombre = name; //Cambia dependiendo del inicio de sesion 
         this.datosCliente = name;
         cliente = new Cliente(this, ip, Integer.valueOf(puerto), nombre);
     }
